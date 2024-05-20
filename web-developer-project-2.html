@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Manny Pachano | Frontend Web Developer</title>
+	<meta name="description" content="A Results-Driven Front End Web Developer Passionate About Turning Client Visions into Realities">
+    <meta name="author" content="Manny Pachano">
+	<link rel="stylesheet" href="/stylesheets/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body onload="loadVideos()">
+	<!-- NAVIGATION BAR -->
+	<div class="navigation-container">
+		<navigation id="navigation">
+			<div class="navigation-content">
+				<a href="/index.html" class="logo">
+					<img src="/images/man-face.png">
+					<span class="logo-text">MANNY PACHANO</span>
+				</a>
+				<ul class="show-601">
+					<a href="/index.html"><li>Home</li></a>
+					<a href="/index.html#about-section"><li>About</li></a>
+					<a href="/index.html#project-section"><li>Projects</li></a>
+					<a href="/index.html#contact-section"><li>Contact</li></a>
+				</ul>	
+				
+				
+				<!-- MOBILE BURGER BARS -->
+				<div class="burger-menu hide-601" id="burger-container" onclick="toggleMobileMenu()">
+					<div class="burger-container">
+						<div id="burger">
+							<div class="bar topBar"></div>
+							<div class="bar btmBar"></div>
+						</div>	
+					</div>
+				
+					<!-- MOBILE DROPDOWN MENU -->
+					<div class="mobile-menu" id="mobile-menu">
+						<ul style="display: flex !important; flex-direction:column;">
+							<a href="/index.html"><li class="mobile-menu-item">Home</li></a>
+							<a href="/index.html#about-section"><li class="mobile-menu-item">About</li></a>
+							<a href="/index.html#project-section"><li class="mobile-menu-item">Projects</li></a>
+							<a href="/index.html#contact-section"><li class="mobile-menu-item">Contact</li></a>
+						</ul>	
+					</div>
+				</div>	
+				
+			</div>
+		</navigation>
+	</div>
+
+	<!-- HERO SECTION -->
+	<div class="hero-section">
+		<div class="hero-content">
+			<h1>Panda's Playhouse</h1>
+			<h4>Checkout how this company took control of their operations by moving their online casino from a simple Facebook page to a secure, membership based website.</h4>
+			
+		</div>
+		
+		<div class="mouse-section">
+			<div class="mouse"></div>
+		</div>
+	</div>
+
+	<div class="project-summary-section">
+		<div class="project-summary-container">
+			<div class="project-summary-video">
+				<div class="video-nav">
+					<div class="video-nav-btn" id="video-nav-prev">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img" style="transform: rotate(225deg);">
+							<rect x="13.8" y="8.3999" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="10.2002" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="8.3999" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="12" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="13.8" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="12" y="10.2002" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="10.2002" y="12" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="6.6001" y="15.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>	
+						</svg>
+					</div>
+					<div class="video-titles-container">
+							<p class="video-title">Step 1: Figma Design</p class="video-title">
+							<p class="video-title">Step 2: Prototyping</p class="video-title">
+							<p class="video-title">Step 3: Development</p class="video-title">
+											
+					</div>
+					<div class="video-nav-btn" id="video-nav-next">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img" style="transform: rotate(45deg)">		
+							<rect x="13.8" y="8.3999" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="10.2002" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="8.3999" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="12" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="13.8" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="12" y="10.2002" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="10.2002" y="12" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="6.6001" y="15.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>	
+						</svg>
+					</div>
+				</div>
+				<div class="videos-container">
+					<div class="placeholder-img project-media-item" style="background-image: url(./images/hifi-img.svg);">
+						<img class="" loading="lazy" src="images/web-development-project-pandas-playhouse-ui-design.png">
+					</div>
+					<div class="placeholder-img project-media-item" style="background-image: url(./images/panda-prototype.svg);">
+						<video class="" preload="none" playsinline muted loop src="videos/web-development-project-pandas-playhouse-prototype.mp4" type="video/mov"></video>
+					</div>
+					<div class="placeholder-img project-media-item" style="background-image: url(./images/panda-development.svg);">
+						<video class="" preload="none" playsinline muted loop src="videos/web-development-project-pandas-playhouse-development.mp4" type="video/mov"></video>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="project-summary-copy">
+				<div>
+					<h3>Project Overview</h3>
+					<p>When Panda's Playhouse reached a user base of 5000 active members, they decided it was time to upgrade from a simple Facebook page to a full-fledged membership based website.</p><br />
+					<p>Research showed that to really take the next step forward, their site would require a facial verification system for KYC verification, a dollar-to-credit conversion system for their virtual currency, a mobile-friendly design as 95% of their users used mobile devices, and fast site speeds to ensure user satisfaction.</p><br />
+					<p>Following an initial discussion to better grasp their needs and concerns, we decided that building the site on a drag-and-drop platform, commonly known as a WYSIWYG CMS, would be the most suitable approach. This choice would empower their team to independently make updates and edits to the website in the future without needing to hire outside developers.</p><br />
+					<p>The owners asked if I'd be able to build their site using Wix, as they'd had previous experience with this platform. After some research, I found that Wix recently launched Wix Studio, a product designed to give developers more flexibility on their site builds by allowing access to CSS and 'Velo' - <i>Wix's version of Javascript</i>.</p><br />
+					<p>I dove in head first, researching online casino competitors, and drew up some initial wireframes to get a good handle on how the user's journey should flow across the site. Following the UX, I created a beautiful UI to boost confidence in the site's credibility and made sure to match their logo's colors. This was all showcased using Figma's prototyping tools.</p><br />
+					<p>The development was a bit of a challenge as I needed to quickly learn the Velo syntax and have the site completed by our agreed upon due date. Thanks to unlimited coffee and more sleepless nights than I'd care to admit, I came up to speed with the syntax and managed to complete the site on schedule.</p><br />
+					<p>The site features a <strong>third-party API that guides users through a KYC verification process with facial recognition, a virtual currency system implemented using Wix Studio's native tools, complete responsiveness across screen sizes, as well as fast site speeds accomplished by optimizing the site's images and code</strong>. Panda's Playhouse owners were ecstatic when they previewed their new site, and even more-so now following the site launch as they are able to make their own website edits using Wix's user friendly WYSIWYG system.</p><br />
+					<p> <i>PS: As Panda's Playhouse has gone through many in-house updates and edits since it's inception, with some of these edits having had a poor impact on UI and site speed, I chose to remove live site viewing as the current site does not represent the aforementioned finished product.</i></p>
+				</div>
+
+				<div>
+					<h3>Tools Used</h3>
+					<ul class="skills-list">
+						<li>CSS</li>
+						<li>JavaScript (Velo)</li>
+						<li>Third Party APIs</li>
+						<li>Wix Studio</li>
+						<li>Figma</li>
+						<li>ChatGPT</li>
+					</ul>
+				</div>
+
+				<div>
+					
+						<a href="/index.html#project-section">
+							<button class="button-small project-back-btn">go back</button>
+						</a>
+					
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	<footer>
+				<div class="footer-container">
+					<!-- grid -->
+					<div class="footer-grid">
+						<div class="footer-social">
+							<h3 class="h3-footer">SOCIAL</h3>
+							<ul class="social-icons social-grid">
+								<li><a href="https://www.linkedin.com/in/manny-pachano" target=”_blank”><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://github.com/MannyPachano" target=”_blank”><i class="fa fa-github"></i></a></li>
+							</ul>
+						</div>
+
+						<div class="footer-about">
+							<h3 class="h3-footer">MANNY PACHANO</h3>
+							<p style="color: white;">A Developer by Trade, a Designer at Heart, I bring the best of both worlds to get you noticed by your ideal audience.</p>
+						</div>
+					</div>
+					<hr>
+					<p class="p-footer">© Copyright 2024. Made by <strong>Manny Pachano</strong></p>
+				</div>
+			</footer>
+		</div>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+		<script src="/javascript/index.js"></script>
+		<script src="//code.tidio.co/htto1uiocpy92atva55rhy1v5hr6f6vg.js" async></script>
+	</body>
+</html>

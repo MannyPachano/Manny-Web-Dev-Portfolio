@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Manny Pachano | Frontend Web Developer</title>
+	<meta name="description" content="A Results-Driven Front End Web Developer Passionate About Turning Client Visions into Realities">
+    <meta name="author" content="Manny Pachano">
+	<link rel="stylesheet" href="/stylesheets/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body onload="loadVideos()">
+	<!-- NAVIGATION BAR -->
+	<div class="navigation-container">
+		<navigation id="navigation">
+			<div class="navigation-content">
+				<a href="/index.html" class="logo">
+					<img src="/images/man-face.png">
+					<span class="logo-text">MANNY PACHANO</span>
+				</a>
+				<ul class="show-601">
+					<a href="/index.html"><li>Home</li></a>
+					<a href="/index.html#about-section"><li>About</li></a>
+					<a href="/index.html#project-section"><li>Projects</li></a>
+					<a href="/index.html#contact-section"><li>Contact</li></a>
+				</ul>	
+				
+				
+				<!-- MOBILE BURGER BARS -->
+				<div class="burger-menu hide-601" id="burger-container" onclick="toggleMobileMenu()">
+					<div class="burger-container">
+						<div id="burger">
+							<div class="bar topBar"></div>
+							<div class="bar btmBar"></div>
+						</div>	
+					</div>
+				
+					<!-- MOBILE DROPDOWN MENU -->
+					<div class="mobile-menu" id="mobile-menu">
+						<ul style="display: flex !important; flex-direction:column;">
+							<a href="/index.html"><li class="mobile-menu-item">Home</li></a>
+							<a href="/index.html#about-section"><li class="mobile-menu-item">About</li></a>
+							<a href="/index.html#project-section"><li class="mobile-menu-item">Projects</li></a>
+							<a href="/index.html#contact-section"><li class="mobile-menu-item">Contact</li></a>
+						</ul>	
+					</div>
+				</div>	
+				
+			</div>
+		</navigation>
+	</div>
+
+	<!-- HERO SECTION -->
+	<div class="hero-section">
+		<div class="hero-content">
+			<h1>Class Tracker Web App</h1>
+			<h4>A web application designed for friends to gamify their martial arts journey. Features include EXP progress bars and rad characters as you level up.</h4>
+			<a href="https://mma-fighter-stats.netlify.app/" target=”_blank”>
+				<button>live link</button>
+			</a>
+		</div>
+		
+		<div class="mouse-section">
+			<div class="mouse"></div>
+		</div>
+	</div>
+
+	<div class="project-summary-section">
+		<div class="project-summary-container">
+			<div class="project-summary-video">
+				<div class="videos-container">
+					<div class="placeholder-img project-media-item" style="background-image: url(./images/mma.svg);">
+						<video class="project-video-item" playsinline autoplay muted loop src="videos/web-development-project-mma.mp4" type="video/mov"></video>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="project-summary-copy">
+				<div>
+					<h3>Project Overview</h3>
+					<p>My friends and I needed a way to motivate ourselves to show up to our martial arts classes. I decided this was the perfect opportunity to practice my skills and create a web app that would gamify our experience.</p><br />
+					<p>I used HTML, CSS, and Javascript for the frontend, and Google's firebase database to keep track of our progress across devices. The app is 100% responsive across screen sizes and features animated progress bars that increase every time you attend a class (honor system folks). Classes increase your EXP points according to their (subjective) difficulty.<p><br />
+					<p>As you level up, watch as your character evolves into something more badass - representative of your newfound skills.</p>
+				</div>
+
+				<div>
+					<h3>Tools Used</h3>
+					<ul class="skills-list">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>SQL</li>
+						<li>Google Firebase</li>
+						<li>Github</li>
+						<li>Netlify</li>
+					</ul>
+				</div>
+
+				<div>
+					<h3>See It Live</h3>
+					<div class="project-summary-btns">
+						<a href="https://mma-fighter-stats.netlify.app/" target=”_blank”>
+							<button class="button-small project-link">live link</button>
+						</a>
+						<a href="/index.html#project-section">
+							<button class="button-small project-back-btn">go back</button>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<footer>
+				<div class="footer-container">
+					<!-- grid -->
+					<div class="footer-grid">
+						<div class="footer-social">
+							<h3 class="h3-footer">SOCIAL</h3>
+							<ul class="social-icons social-grid">
+								<li><a href="https://www.linkedin.com/in/manny-pachano" target=”_blank”><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://github.com/MannyPachano" target=”_blank”><i class="fa fa-github"></i></a></li>
+							</ul>
+						</div>
+
+						<div class="footer-about">
+							<h3 class="h3-footer">MANNY PACHANO</h3>
+							<p style="color: white;">A Developer by Trade, a Designer at Heart, I bring the best of both worlds to get you noticed by your ideal audience.</p>
+						</div>
+					</div>
+					<hr>
+					<p class="p-footer">© Copyright 2024. Made by <strong>Manny Pachano</strong></p>
+				</div>
+			</footer>
+		</div>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+		<script src="/javascript/index.js"></script>
+		<script src="//code.tidio.co/htto1uiocpy92atva55rhy1v5hr6f6vg.js" async></script>
+	</body>
+</html>

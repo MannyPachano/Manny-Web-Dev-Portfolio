@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Manny Pachano | Frontend Web Developer</title>
+	<meta name="description" content="A Results-Driven Front End Web Developer Passionate About Turning Client Visions into Realities">
+    <meta name="author" content="Manny Pachano">
+	<link rel="stylesheet" href="/stylesheets/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body onload="loadVideos()">
+	<!-- NAVIGATION BAR -->
+	<div class="navigation-container">
+		<navigation id="navigation">
+			<div class="navigation-content">
+				<a href="/index.html" class="logo">
+					<img src="/images/man-face.png">
+					<span class="logo-text">MANNY PACHANO</span>
+				</a>
+				<ul class="show-601">
+					<a href="/index.html"><li>Home</li></a>
+					<a href="/index.html#about-section"><li>About</li></a>
+					<a href="/index.html#project-section"><li>Projects</li></a>
+					<a href="/index.html#contact-section"><li>Contact</li></a>
+				</ul>	
+				
+				
+				<!-- MOBILE BURGER BARS -->
+				<div class="burger-menu hide-601" id="burger-container" onclick="toggleMobileMenu()">
+					<div class="burger-container">
+						<div id="burger">
+							<div class="bar topBar"></div>
+							<div class="bar btmBar"></div>
+						</div>	
+					</div>
+				
+					<!-- MOBILE DROPDOWN MENU -->
+					<div class="mobile-menu" id="mobile-menu">
+						<ul style="display: flex !important; flex-direction:column;">
+							<a href="/index.html"><li class="mobile-menu-item">Home</li></a>
+							<a href="/index.html#about-section"><li class="mobile-menu-item">About</li></a>
+							<a href="/index.html#project-section"><li class="mobile-menu-item">Projects</li></a>
+							<a href="/index.html#contact-section"><li class="mobile-menu-item">Contact</li></a>
+						</ul>	
+					</div>
+				</div>	
+				
+			</div>
+		</navigation>
+	</div>
+
+	<!-- HERO SECTION -->
+	<div class="hero-section">
+		<div class="hero-content">
+			<h1>LoopManager</h1>
+			<h4>Take a peak behind the scenes to learn how this company successfully revamped their product website, bringing it out of the stone age and into the modern era.</h4>
+			<a href="https://loopmanager.000webhostapp.com/public/index.html">
+				<button>demo link</button>
+			</a>
+		</div>
+		
+		<div class="mouse-section">
+			<div class="mouse"></div>
+		</div>
+	</div>
+
+	<div class="project-summary-section">
+		<div class="project-summary-container">
+			<div class="project-summary-video">
+				<div class="video-nav">
+					<div class="video-nav-btn" id="video-nav-prev">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img" style="transform: rotate(225deg);">
+							<rect x="13.8" y="8.3999" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="10.2002" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="8.3999" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="12" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="13.8" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="12" y="10.2002" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="10.2002" y="12" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="6.6001" y="15.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>	
+						</svg>
+					</div>
+					<div class="video-titles-container">
+							<p class="video-title">Intro<span>ducing the product</span></p class="video-title">
+							<p class="video-title"><span>Showcasing the </span>value</p class="video-title">
+							<p class="video-title">Footer</p class="video-title">
+											
+					</div>
+					<div class="video-nav-btn" id="video-nav-next">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img" style="transform: rotate(45deg)">		
+							<rect x="13.8" y="8.3999" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="10.2002" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="15.6001" y="8.3999" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="12" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="13.8" y="6.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="12" y="10.2002" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="10.2002" y="12" width="1.8" height="1.8" fill="var(--text-header)"></rect>
+							<rect x="6.6001" y="15.6001" width="1.8" height="1.8" fill="var(--text-header)"></rect>	
+						</svg>
+					</div>
+				</div>
+
+				<div class="videos-container">
+					<div class="placeholder-img project-media-item" style="background-image: url(./images/loopmanager-intro.svg);">
+						<video class="project-video-item" playsinline autoplay muted loop src="videos/web-development-project-loopmanager-intro.mp4" type="video/mov"></video>
+					</div>
+					<div class="placeholder-img project-media-item" style="background-image: url(./images/loopmanager-value.svg);">
+						<video class="project-video-item" playsinline preload="none" muted loop src="videos/web-development-project-loopmanager-value.mp4" type="video/mov"></video>
+					</div>
+					<div class="placeholder-img project-media-item" style="background-image: url(./images/loopmanager-footer.svg);">
+						<video class="project-video-item" playsinline preload="none" muted loop src="videos/web-development-project-loopmanager-footer.mp4" type="video/mov"></video>
+					</div>
+				</div>
+
+			</div>
+
+			
+			<div class="project-summary-copy">
+				<div>
+					<h3>Project Overview</h3>
+					<p>nuVector, parent company of the LoopManager Supply Chain Management App, embarked on a website revamp ahead of a major marketing push. Encouraged by positive feedback on their new animated explainer videos, they wanted to align their website with the videos' tone and style for consistent branding. They envisioned a <strong>modern, visually appealing site with captivating graphics</strong>. </p><br />
+					<p>Beginning with lofi wireframes to map out user journeys, we progressed to high fidelity mockups and prototypes using Figma's collaborative features to keep everyone in the loop, <i>no pun intended</i>. Opting for a <strong>100% code-based approach instead of WordPress plugins enhanced site speed</strong> and allowed for tailored backend processes, also optimizing for long-term SEO initiatives.</strong>.</p><br />
+					<p>Leveraging HTML, CSS, JS, and PHP, I crafted a secure, dynamic frontend and rewrote the copy for improved clarity and engagement. The result exceeded expectations, delighting nuVector with its polished appearance and enhanced functionality.</p>
+				</div>
+
+				<div>
+					<h3>Tools Used</h3>
+					<ul class="skills-list">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>PHP</li>
+						<li>WordPress</li>
+						<li>Figma</li>
+						<li>Photoshop</li>
+						<li>Canva</li>
+						<li>ChatGPT</li>
+					</ul>
+				</div>
+
+				<div>
+					<h3>See It Live</h3>
+					<div class="project-summary-btns">
+						<a href="https://loopmanager.000webhostapp.com/public/index.html">
+							<button class="button-small project-link">demo link</button>
+						</a>
+						<a href="/index.html#project-section">
+							<button class="button-small project-back-btn">go back</button>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<footer>
+				<div class="footer-container">
+					<!-- grid -->
+					<div class="footer-grid">
+						<div class="footer-social">
+							<h3 class="h3-footer">SOCIAL</h3>
+							<ul class="social-icons social-grid">
+								<li><a href="https://www.linkedin.com/in/manny-pachano" target=”_blank”><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://github.com/MannyPachano" target=”_blank”><i class="fa fa-github"></i></a></li>
+							</ul>
+						</div>
+
+						<div class="footer-about">
+							<h3 class="h3-footer">MANNY PACHANO</h3>
+							<p style="color: white;">A Developer by Trade, a Designer at Heart, I bring the best of both worlds to get you noticed by your ideal audience.</p>
+						</div>
+					</div>
+					<hr>
+					<p class="p-footer">© Copyright 2024. Made by <strong>Manny Pachano</strong></p>
+				</div>
+			</footer>
+		</div>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+		<script src="/javascript/index.js"></script>
+		<script src="//code.tidio.co/htto1uiocpy92atva55rhy1v5hr6f6vg.js" async></script>
+	</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Manny Pachano | Frontend Web Developer</title>
+	<meta name="description" content="A Results-Driven Front End Web Developer Passionate About Turning Client Visions into Realities">
+    <meta name="author" content="Manny Pachano">
+	<link rel="stylesheet" href="/stylesheets/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body onload="loadVideos()">
+	<!-- NAVIGATION BAR -->
+	<div class="navigation-container">
+		<navigation id="navigation">
+			<div class="navigation-content">
+				<a href="/index.html" class="logo">
+					<img src="/images/man-face.png">
+					<span class="logo-text">MANNY PACHANO</span>
+				</a>
+				<ul class="show-601">
+					<a href="/index.html"><li>Home</li></a>
+					<a href="/index.html#about-section"><li>About</li></a>
+					<a href="/index.html#project-section"><li>Projects</li></a>
+					<a href="/index.html#contact-section"><li>Contact</li></a>
+				</ul>	
+				
+				
+				<!-- MOBILE BURGER BARS -->
+				<div class="burger-menu hide-601" id="burger-container" onclick="toggleMobileMenu()">
+					<div class="burger-container">
+						<div id="burger">
+							<div class="bar topBar"></div>
+							<div class="bar btmBar"></div>
+						</div>	
+					</div>
+				
+					<!-- MOBILE DROPDOWN MENU -->
+					<div class="mobile-menu" id="mobile-menu">
+						<ul style="display: flex !important; flex-direction:column;">
+							<a href="/index.html"><li class="mobile-menu-item">Home</li></a>
+							<a href="/index.html#about-section"><li class="mobile-menu-item">About</li></a>
+							<a href="/index.html#project-section"><li class="mobile-menu-item">Projects</li></a>
+							<a href="/index.html#contact-section"><li class="mobile-menu-item">Contact</li></a>
+						</ul>	
+					</div>
+				</div>	
+				
+			</div>
+		</navigation>
+	</div>
+
+	<!-- HERO SECTION -->
+	<div class="hero-section">
+		<div class="hero-content">
+			<h1 id="h1-hero">Hey, I'm Manny Pachano</h1>
+			<h4>A Developer by Trade, a Designer at Heart, I bring the best of both worlds to get you noticed by your ideal audience.</h4>
+			<a href="/index.html#project-section">
+				<button>projects</button>
+			</a>
+		</div>
+		<div class="manny-img" id="manny-img"></div>
+		<div class="mouse-section">
+			<div class="mouse"></div>
+		</div>
+	</div>
+
+	<div class="about-section" id="about-section">
+		<div class="about-container">
+			<div class="title-div">
+				<h2 class="title-after">About me</h2>
+				<p>When I'm not busy wrestling with rogue CSS or duking it out with JavaScript bugs, you might catch me sipping on a bottomless cup of coffee, brainstorming my next brilliant idea, or rolling around in epic pajama fights (a.k.a. Brazilian Jiu Jitsu).</p>
+			</div>
+
+			<div>
+				<h3>Get to know me!</h3>
+				<p>My approach to web development is rooted in <strong>collaboration, communication, and a relentless pursuit of excellence</strong>. I believe that the key to a successful project lies in understanding your unique goals and translating them into a digital experience that exceeds your expectations.</p><br />
+				<p>I'm not just here to write code—I'm here to be your partner in success. That means <strong>listening to your feedback, offering strategic insights, and working tirelessly to bring your vision to life</strong>.</p><br />
+				<p>Whether you're launching a brand new website, revamping an existing one, or seeking ongoing support and maintenance, I'm here to help every step of the way.</p>
+				<a href="/index.html#contact-section">
+					<button class="button-small">CONTACT</button>
+				</a>
+			</div>
+
+			<div>
+				<h3>Skills and Tools</h3>
+				<ul class="skills-list">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>TypeScript</li>
+					<li>PHP</li>
+					<li>SQL</li>
+					<li>WordPress</li>
+					<li>Github</li>
+					<li>Responsive Design</li>
+					<li>Figma</li>
+					<li>Photoshop</li>
+					<li>SEO</li>
+					<li>Copywriting</li>
+					<li>AI Prompt Engineering</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="projects-section" id="project-section">
+		<div class="projects-container"> 
+			<div class="title-div">
+				<h2 class="title-after">PROJECTS</h2>
+				<p>Welcome to my projects portfolio, where innovation meets execution and creativity knows no bounds. Here, you'll find a curated collection of my proudest accomplishments—each one a testament to my passion for web development and my dedication to delivering exceptional digital experiences.</p>
+			</div>
+
+			<div class="projects-list">
+
+				<div class="project-item">
+					<div class="home-placeholder-img project-media-item" style="background-image: url(./images/loopmanager-thumbnail.svg);">
+						<video playsinline autoplay muted loop src="videos/loopmanager-thumbnail.mp4" type="video/mov"></video>
+					</div>
+					<div class="project-item-content">
+						<h3>LoopManager</h3>
+						<p>Parent company nuVector LLC needed to redesign the website for their software application, 'LoopManager'. They sought something <strong>modern, fresh, and on-brand</strong> with their animated explainer videos.</p>
+						<a href="/web-developer-project-1.html"><button class="button-small">CASE STUDY</button></a>
+					</div>
+				</div>
+				
+				<div class="project-item">
+					<div class="home-placeholder-img project-media-item" style="background-image: url(./images/panda-thumbnail.svg);">
+						<video playsinline autoplay muted loop src="videos/panda-playhouse-thumbnail.mp4" type="video/mov"></video>
+					</div>
+					
+					<div class="project-item-content">
+						<h3>Panda's Playhouse</h3>
+						<p>Online casino company, Panda's Playhouse, was ready to upgrade from a Facebook-based platform to their own website where customers could go to play their online games. The site needed to be <strong>fast, mobile-friendly, and intuitive</strong> enough for non-tech-savvy internet users to navigate.</p>
+						<a href="/web-developer-project-2.html"><button class="button-small">CASE STUDY</button></a>
+					</div>
+				</div>
+				
+				<div class="project-item">
+					<div class="home-placeholder-img project-media-item" style="background-image: url(./images/mma-thumbnail.svg);">
+						<video playsinline autoplay muted loop src="videos/mma-thumbnail.mp4" type="video/mov"></video>
+					</div>
+					
+					<div class="project-item-content">
+						<h3>MMA Class Tracking Web App</h3>
+						<p>This was a fun one. My friends and I needed a way to motivate ourselves to show up to martial arts classes - <strong>Why not gamify our experience</strong> through a fun app?</p>
+						<a href="/web-developer-project-3.html"><button class="button-small">CASE STUDY</button></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="contact-section" id="contact-section">
+		<div class="title-div">
+			<h2 class="title-after">CONTACT</h2>
+			<p>I'm currently available for <strong>freelance and part-time work</strong>. Leave me a message using the form below and I'll get back to you ASAP.</p>
+		</div>
+
+		<div>
+			<form method="post" id="contact-form" class="form-container">
+				<div class="form-item">
+					<label for="name">First name</label>
+					<input type="text" id="name" name="name" required>
+				</div>
+				<div class="form-item form-email">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required>
+				</div>
+				<div class="form-item">
+					<span>Which Services Do You Need? <span style="font-weight: 400; font-size: .8rem; color: #999999;">(select all that apply)</span></span>
+					
+						<label class="checkbox-container" for="revamp">Revamp my current website
+							<input type="checkbox" id="revamp" name="revamp" value="Revamp my current website">
+							<span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container" for="design">Create a new website
+							<input type="checkbox" id="design" name="design" value="New website design">
+							<span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container" for="creation">Design a new website (Design Only)
+							<input type="checkbox" id="creation" name="creation" value="New website creation">
+							<span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container" for="seo">Search engine optimization
+							<input type="checkbox" id="seo" name="seo" value="Search engine optimization">
+							<span class="checkmark"></span>
+						</label>
+						<label class="checkbox-container" for="other">Other
+							<input type="checkbox" id="other" name="other" value="Other">
+							<span class="checkmark"></span>
+						</label>
+					
+				</div>
+				<div class="form-item form-message">
+					<label for="message">Tell Me More</label>
+					<textarea type="email" id="message" name="message"></textarea>
+				</div>
+				<button type="submit" class="button-small">SEND
+				</button>
+				
+			</form>
+			
+		</div>
+
+	</div>
+	
+
+
+	
+	<footer>
+				<div class="footer-container">
+					<!-- grid -->
+					<div class="footer-grid">
+						<div class="footer-social">
+							<h3 class="h3-footer">SOCIAL</h3>
+							<ul class="social-icons social-grid">
+								<li><a href="https://www.linkedin.com/in/manny-pachano" target=”_blank”><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://github.com/MannyPachano" target=”_blank”><i class="fa fa-github"></i></a></li>
+							</ul>
+						</div>
+
+						<div class="footer-about">
+							<h3 class="h3-footer">MANNY PACHANO</h3>
+							<p style="color: white;">A Developer by Trade, a Designer at Heart, I bring the best of both worlds to get you noticed by your ideal audience.</p>
+						</div>
+					</div>
+					<hr>
+					<p class="p-footer">© Copyright 2024. Made by <strong>Manny Pachano</strong></p>
+				</div>
+			</footer>
+		</div>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+		<script src="/javascript/index.js"></script>
+		<script src="//code.tidio.co/htto1uiocpy92atva55rhy1v5hr6f6vg.js" async></script>
+	</body>
+</html>
