@@ -97,6 +97,19 @@ p {
     line-height: 1.8;
 }
 
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed;
+    visibility: hidden;    
+    top: 0;
+    left: 0;
+    z-index: 3;
+    pointer-events: none;
+}
+
 /* TITLE DIV */
 
 .title-div {
@@ -965,6 +978,10 @@ hr {
 }
 
   @media only screen and (min-width: 601px) {
+    .circle {
+        visibility: visible;
+    }
+
     .hide-601 {
         display: none;
     }
